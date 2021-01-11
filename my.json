@@ -1,0 +1,14 @@
+{
+    "events":[
+        {
+            "name":"Lapte de migdale",
+            "description":"Din migdale",
+            "begin":1610389507,
+            "end":1610399176,
+            "alarms":[
+                {"trigger":{"seconds":10,"days":0},"action":"Prelucrare migdale","repeat":0},
+                {"trigger":{"seconds":100,"days":0},"action":"Prelucrare migdale fierte","repeat":0}
+            ]
+        }
+    ]
+}
